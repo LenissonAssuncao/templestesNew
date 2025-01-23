@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculadora</title>
+	<script src="PROJETO.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="calculadora">
+
+		<input type="text" id="display" readonly>
+
+		<div class="botoes">
+			<button class="btn" onclick="adicionarNumero('1')">1</button>
+			<button class="btn" onclick="adicionarNumero('2')">2</button>
+			<button class="btn" onclick="adicionarNumero('3')">3</button>
+			<button class="btnOperador" onclick="adiconarOperador('+')">+</button>
+			<br>
+
+			<button class="btn" onclick="adicionarNumero('4')">4</button>
+			<button class="btn" onclick="adicionarNumero('5')">5</button>
+			<button class="btn" onclick="adicionarNumero('6')">6</button>
+			<button class="btnOperador" onclick="adiconarOperador('-')">-</button>
+			<br>
+
+			<button class="btn" onclick="adicionarNumero('7')">7</button>
+			<button class="btn" onclick="adicionarNumero('8')">8</button>
+			<button class="btn" onclick="adicionarNumero('9')">9</button>
+			<button class="btnOperador" onclick="adiconarOperador('*')">*</button>
+			<br>
+
+			<button class="btn" onclick="resultado()">=</button>
+			<button class="btn" onclick="adicionarNumero('0')">0</button>
+			<button class="btn" onclick="apagarNumero()">C</button>
+			<button class="btnOperador" onclick="adiconarOperador('/')">/</button>
+			
+
+		</div>
+
+	</div>
+</body>
+</html>
